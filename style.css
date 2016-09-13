@@ -1,0 +1,40 @@
+html, body, .main{
+  font-family: 'MicrosoftYaHei', "微软雅黑", Arial;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body{background:#ffffff;}
+.main{margin:0 2%;text-align: center;}
+.result{text-align: left;}
+.main .qrcode{width:100%;}
+.main .i-cover{width:100%;margin:0 auto;}
+.main .desc{font-size:16px;line-height:25px;}
+.main .test-name{margin:20px auto;text-align: center; }
+.main .date, .main .name{color:#666;margin-right:8px;}
+.main .i-input,.main .i-submit,.main .i-share{display: inline-block;height:45px;text-align:center;width:180px;}
+.main .i-input{border:1px solid #000;font-size:0.9em;padding:0 5px;}
+.main .i-submit,.main .i-share{background:#945b5b;color:#ffffff;font-weight:700;line-height:45px;width:120px;border-radius:5px;}
+.main .i-share{margin-left:60px;background:#e69f28}
+.main .uname{color:#0000FF;}
+.main .hint{color: #666;font-size: 14px}
+.cover {
+  display: none; 
+  position:fixed; 
+  top: 0; 
+  left:0; 
+  bottom:0;
+  width: 100%;
+  z-index:10;
+  background-color:#000000;
+  opacity:0.7;
+}
+.guide {
+  display: none; 
+  position:fixed; 
+  top: 5px;
+  right:5px;
+  z-index:11;
+}
